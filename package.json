@@ -1,0 +1,40 @@
+{
+  "name": "smc-ict-trade-signal-adapter-app",
+  "version": "1.0.0",
+  "description": "TypeScript adapter system for Smart Money Concepts (SMC) and Institutional Market Structure (ICT) trade signals with economic event integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "lint": "eslint src --ext .ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "SMC",
+    "ICT",
+    "trading",
+    "signals",
+    "adapter",
+    "economic-events",
+    "TypeScript"
+  ],
+  "author": "Usman Tukur Baba",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
