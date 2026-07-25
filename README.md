@@ -1,0 +1,1 @@
+# SMC-ICT-Trade-Signal-Adapter-App
